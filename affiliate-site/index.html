@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Deals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Best Affiliate Deals</h1>
+    <p>Handpicked gadgets and products with honest recommendations.</p>
+</header>
+
+<section class="products" id="products">
+    <!-- PRODUCT 1 -->
+    <div class="card">
+        <img src="https://via.placeholder.com/350x200?text=Product+1" alt="">
+        <h3>Product 1</h3>
+        <p>Short description of the product. Highlight benefits.</p>
+        <span class="price">₹1,499</span>
+        <button onclick="openAffiliate('https://example.com/?aff_id=YOUR_ID')">Buy Now</button>
+    </div>
+
+    <!-- PRODUCT 2 -->
+    <div class="card">
+        <img src="https://via.placeholder.com/350x200?text=Product+2" alt="">
+        <h3>Product 2</h3>
+        <p>Short description of the product. Highlight benefits.</p>
+        <span class="price">₹2,999</span>
+        <button onclick="openAffiliate('https://example.com/?aff_id=YOUR_ID2')">Buy Now</button>
+    </div>
+</section>
+
+<section class="subscribe" id="subscribe">
+    <h2>Subscribe for Deals</h2>
+    <p>No spam — just weekly picks.</p>
+
+    <input type="email" id="email" placeholder="Enter your email">
+    <button onclick="subscribe()">Subscribe</button>
+
+    <p id="msg"></p>
+</section>
+
+<footer>
+    <p>© 2025 Affiliate Deals | We may earn a commission from links.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
